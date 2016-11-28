@@ -7,20 +7,44 @@ body {
   text-align: center;
 }
 
+* {
+  outline: 1px dashed lime;
+}
+
 .content-block {
   text-align: left;
-  width: 70%;
+  width: 1024px;
   display: inline-block;
   background-color: white;
 }
 
+.top-panel {
+  background-color: #FBFBFB;
+  padding: 1em;
+}
 
-.links a {
+.panel-addons {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.social-networks {
+  display: inline-block;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+.top-panel a {
   text-decoration: none;
   color: #666666;
   font-family: 'Martel Sans', 'arial', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .header-block {
@@ -34,4 +58,30 @@ body {
 .logo {
   height: 120px;
   width: 480px;
+}
+
+.navigation-bar {
+  color: #FC0;
+  background-color: #DE360F;
+}
+
+
+.order-basket {
+  background-color: #FC0;
+}
+
+.add-to-cart {
+  background-color: #E5E5E5;
+}
+
+.more-info {
+  background-color: #DEDEDE;
+}
+
+
+/* screen omitted */
+@media (max-width: 1023px) {
+
+
+
 }
