@@ -1,0 +1,177 @@
+/* Styles go here */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/bgbody.png');
+  text-align: center;
+}
+
+/** {
+  outline: 1px dashed lime;
+}*/
+
+.content-block {
+  text-align: left;
+  width: 75%;
+  /*max-width: 1024px;*/
+  display: inline-block;
+  background-color: white;
+  box-shadow: 3px 0 3px #CCC, -3px 0 3px #CCC;
+}
+
+.top-panel {
+  background-color: #FBFBFB;
+  padding: 1em;
+}
+
+.panel-addons {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.social-networks {
+  display: inline-block;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+.top-panel a {
+  text-decoration: none;
+  color: #666666;
+  font-family: 'Martel Sans', 'arial', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.top-panel a::before {
+    display: inline-block;
+    height: 0.6em;
+    width: 0;
+    border-left: 1px solid #666;
+    box-sizing: border-box;
+    content: "";
+    margin: 0 10px 0.05em;
+}
+
+.top-panel a:first-of-type::before {
+    display: none;
+}
+
+.header-block {
+  /*border: 1px solid lightgrey;*/
+  border: none;
+  outline: 1px solid lightgrey;
+  background: url('../img/bgheader.png');
+  background-size: 5px 5px;
+}
+
+.navigation-block {
+  border: none;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  min-height: 120px; /* for logo */
+  text-align: right;
+}
+
+.logo {
+  height: 120px;
+  width: 480px;
+  float:left;
+}
+
+.banner-wrapper {
+  margin: 25px 25px 10px 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.banner-wrapper > img  {
+  height: 74px;
+  width: 522px;
+}
+
+.navigation-bar {
+  color: #FC0;
+  background-color: #DE360F;
+}
+
+
+.order-basket {
+  background-color: #FC0;
+}
+
+.add-to-cart {
+  background-color: #E5E5E5;
+}
+
+.more-info {
+  background-color: #DEDEDE;
+}
+
+
+/* screen omitted */
+@media (max-width: 1365px) {
+
+
+
+.content-block {
+  width: 1024px;
+}
+
+.navigation-block {
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 1023px) {
+
+.content-block {
+  width: 768px;
+}
+
+.navigation-block {
+  text-align: center;
+}
+
+.banner-wrapper {
+  margin-top: 10px;
+  margin-left: 0;
+  display: block;
+  text-align: center;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.content-block {
+  width: 480px;
+}
+
+.banner-wrapper > img {
+  width: 480px;
+  height: auto;
+}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+.banner-wrapper > img {
+  width: 480px;
+  height: auto;
+}
+
+
+}
