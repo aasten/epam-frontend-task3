@@ -105,6 +105,7 @@ body {
 
 .order-basket {
   background-color: #FC0;
+  border-radius: 3px;
 }
 
 .add-to-cart {
