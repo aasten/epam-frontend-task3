@@ -523,17 +523,11 @@ body {
                 text-align: right;
               }
 
-.pagination-bar > * {
-  clear: both;
-}
 
 .pagination-bar span {
   display: inline-block;
 }
 
-.pagination-bar > span:hover {
-  cursor: pointer;
-}
 
 .page-left {
   float: left;
