@@ -399,7 +399,7 @@ body {
   border: 1px solid #DDD;
   border-radius: 2px;
   text-align: left;
-  margin: 25px 25px 25px 0;
+  margin: 10px;
 }
 
 .product-content {
@@ -502,10 +502,34 @@ body {
   text-align: center;
 }
 
+.pagination-bar a {
+  text-decoration: none;
+  color: #4781A4;
+}
+
+              .pagination-bar table {
+                width: 100%;
+              }
+
+              .page-prev {
+                text-align: left;
+              }
+
+              .page-home {
+                text-align: middle;
+              }
+
+              .page-next {
+                text-align: right;
+              }
+
 .pagination-bar > * {
   clear: both;
 }
 
+.pagination-bar span {
+  display: inline-block;
+}
 
 .pagination-bar > span:hover {
   cursor: pointer;
@@ -513,12 +537,10 @@ body {
 
 .page-left {
   float: left;
-  display: inline-block;
 }
 
 .page-right {
   float: right;
-  display: inline-block;
 }
 
 
