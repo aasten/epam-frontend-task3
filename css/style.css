@@ -529,6 +529,12 @@ body {
   overflow: auto;
 }
 
+.footer-block a {
+  text-decoration: none;
+  color: #4781A4;
+}
+
+
 .about {
   display: inline-block;
   float: left;
@@ -544,10 +550,6 @@ body {
   font-weight: bold;
 }
 
-.copyright a {
-  text-decoration: none;
-  color: #4781A4;
-}
 
 .powered-by {
   text-transform: uppercase;
