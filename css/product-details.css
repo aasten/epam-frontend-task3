@@ -28,6 +28,18 @@
   color: #FC0;
 }
 
+.price {
+  font-size: 2em;
+}
+
+.cost {
+  font-weight: bold;
+}
+
+.cost::before {
+  content: "$";
+}
+
 .buy-statistics {
   font-size: 1.5em;
 }
@@ -38,6 +50,7 @@
 
 .product-characteristics {
   clear: both;
+  padding-bottom: 1em;
 }
 
 
@@ -50,6 +63,24 @@
 
 .product-image {
   float: none;
+  margin: 0;
+}
+
+}
+
+@media (max-width: 479px) {
+
+.product-details {
+  padding: 0;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
 }
 
 }
