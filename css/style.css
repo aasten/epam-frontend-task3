@@ -18,7 +18,6 @@ body {
   display: inline-block;
   background-color: white;
   box-shadow: 3px 0 3px #CCC, -3px 0 3px #CCC;
-  font-family: 'Martel Sans', 'arial', sans-serif;
 }
 
 .top-panel {
@@ -341,14 +340,7 @@ body {
     clear: both;
 }
 
-.background-panel {
-  background: #F6F6F6; /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F6F6', endColorstr='#F3F3F3'); /* для IE6-9 */
-  background: -webkit-linear-gradient(top, bottom, #F6F6F6, #F3F3F3); /* для webkit-браузеров */
-  background: -moz-linear-gradient(top, #F6F6F6, #F3F3F3); /* для firefox 3.6+ */
-  background: -o-linear-gradient(top, #F6F6F6, #F3F3F3); /* для Opera 11.10+ */
-  background: -ms-linear-gradient(top, #F6F6F6, #F3F3F3); /* для IE10+ */
-}
+
 
 .goods-layout {
   display: inline-block;
@@ -372,10 +364,10 @@ body {
 
 .manage-layout button {
   font-size: 0.7em;
-  border: 1px solid #DDD;
-  border-radius: 2px;
+  /*border: 1px solid #DDD;
+  border-radius: 2px;*/
   text-align: right;
-  color: #4781A4;
+  /*color: #4781A4;*/
 }
 
 .grid-layout {
